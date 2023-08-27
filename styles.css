@@ -9,6 +9,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  background-color: aliceblue;
 }
 
 .navbar ul {
@@ -26,7 +27,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.navbar ul li:hover {
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
   cursor: pointer;
   color: gray;
 }
@@ -34,7 +40,6 @@ body {
 /*Center*/
 
 .center-container {
-  background-color: teal;
   width: 100%;
   height: 89vh;
 
